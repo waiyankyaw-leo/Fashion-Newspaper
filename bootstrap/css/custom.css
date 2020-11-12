@@ -1,0 +1,208 @@
+@font-face{
+    font-family: nunito sans;
+    src:url(../../NunitoSans-Regular.ttf);
+}
+
+#nav{
+	font-family:  nunito sans;
+}
+
+.carousel_text{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    margin: auto;
+    font-family: nunito sans;
+    height: 28%;
+    width: 30%;
+    line-height:3vw;
+}
+
+.lifehack_text{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    margin: auto;
+    font-family: nunito sans;
+    height: 25%;
+    width: 50%;
+    line-height:3vw;
+}
+
+.logo{
+	width: 23%;
+	height: 28%;
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ #social {
+    position: absolute;
+  right:5%!important;
+  top:2%!important;
+  width: 340px;
+  } }
+
+  @media (min-width: 1200px) { 
+    #social {
+  position: absolute;
+  left: 2%;
+  top:2%;
+width: 400px;}
+
+   }  
+
+div#socialmedia{
+	
+  width: 400px;
+}
+
+body{
+	font-family: nunito sans;
+}
+
+a.mac:hover{
+	color: #DC143C!important;
+}
+
+div.fashion{
+	border-left: dotted 1px pink;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 540px) {
+  #num {
+    font-size: 15px;
+    line-height: 2!important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #socialmedia {
+    position: absolute;
+	top:4%!important;
+  left: 4%!important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ #socialmedia {
+    position: absolute;
+	left: 20%!important;
+	top:4%!important;
+  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ #socialmedia {
+    position: absolute;
+	right:0%!important;
+	top:2%!important;
+  } }
+
+  @media (min-width: 1200px) { 
+    #socialmedia {position: absolute;
+  left: 6%;
+  top:2%;}
+   }
+
+
+@media screen and (max-width: 540px) {
+  #num2 {
+    font-size: 15px;
+    line-height: 2!important;
+  }
+}
+
+
+
+@media screen and (max-width: 540px) {
+  .num4 {
+    font-size: 30px;
+    line-height: 2!important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #num3 {
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:  767.98px) {
+  #num3 {
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:  767.98px) {
+  .menu-bar {
+    font-size: 9px!important;
+    margin-top: 1px!important;
+  }
+}
+
+a.topnew:hover{
+	color: #219caf!important;
+}
+
+@keyframes foo {
+  0%, 10% {
+    opacity: 0;
+  }
+  15%, 100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #about {
+   position: absolute;
+   top:15%;
+   left: 10%;  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ #about {
+    position: absolute;
+  left:8%!important;
+  top:15%!important;
+  }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ #about {
+    position: absolute;
+  left:8%!important;
+  top:20%!important;
+  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ #about {
+  position: absolute;
+  left:8%!important;
+  top:25%!important;
+  }
+   }
+
+  @media (min-width: 1200px) { 
+    #about {position: absolute;
+  left: 8%;
+  top:25%;}
+   }
+
+   .background_img{
+    background-image: url(../image/backimg3.jpg);
+    height: 200px;
+}
+.back{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
