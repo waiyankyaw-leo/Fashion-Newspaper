@@ -206,3 +206,55 @@ a.topnew:hover{
     top: 40px;
     left: 70px;
 }
+
+@media (min-width: 1200px) { 
+    #contact {
+    position: absolute;
+  top:160px;}
+   }
+
+@media (max-width: 575.98px) {
+  #contact {
+   position: absolute;
+   top:15%;
+   left: 1%;  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ #contact {
+    position: absolute;
+  left:1%!important;
+  top:15%!important;
+  }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ #contact {
+    position: absolute;
+  left:2%!important;
+  top:20%!important;
+  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ #contact {
+  position: absolute;
+  left:2%!important;
+  top:25%!important;
+  }
+   }
+
+ 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
